@@ -10,6 +10,8 @@ python prepare.py              # sekali saja, ±4 menit: menghitung model & meny
 streamlit run Beranda.py
 ```
 
+Menu dan ikon diatur di `Beranda.py` (st.navigation + ikon Material). Isi tiap halaman ada di `pages/`.
+
 Data dibaca dari `../data/dataset.csv`. Folder `artifacts/` sudah disertakan, jadi `prepare.py` hanya perlu dijalankan ulang jika data atau parameter diubah.
 
 ## Halaman

@@ -127,7 +127,7 @@ def load_hit_model():
 def sidebar_filters(tracks: pd.DataFrame, key: str = "f") -> pd.DataFrame:
     """Filter global di sidebar: genre, rentang popularity, explicit."""
     with st.sidebar:
-        st.markdown("### 🎛️ Filter")
+        st.markdown("### :material/tune: Filter")
         genres = sorted(tracks.track_genre.unique())
         g = st.multiselect("Genre", genres, placeholder="Semua genre", key=f"{key}_g")
         p = st.slider("Popularity", 0, 100, (0, 100), key=f"{key}_p")
