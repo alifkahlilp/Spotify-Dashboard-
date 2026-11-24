@@ -1,0 +1,15 @@
+streamlit>=1.50
+pandas
+numpy
+plotly
+scikit-learn
+scipy
+pyarrow
+joblib
+# hanya dibutuhkan untuk prepare.py
+umap-learn
+kmodes
+scikit-fuzzy
+shap
+mlxtend
+networkx
